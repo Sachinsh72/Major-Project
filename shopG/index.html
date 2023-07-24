@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopG Home</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/main.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class = "navbar navbar-expand-lg navbar-light bg-white py-1 fixed-top">
+        <div class = "container">
+            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
+                <img src = "images/shopping-bag-icon.png" alt = "site icon">
+                <span class = " fw-bold ms-2">shopG</span>
+            </a>
+
+            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-dark" href = "#header">Home</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-dark" href = "#collection">Collection</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-dark" href = "#special">Specials</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-dark" href = "#blogs">Blogs</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2">
+                        <a class = "nav-link  text-dark" href = "#about">About us</a>
+                    </li>
+                    <li class = "nav-item px-2 py-2 border-0">
+                        <a class = "nav-link  text-dark" href = "#popular">Popular</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
+        <div class = "container h-100 d-flex align-items-center carousel-inner">
+            <div class = "text-center carousel-item active">
+                <h2 class = "text-capitalize text-white ">summer collection</h2>
+                <h1 class = "text-uppercase py-2 fw-bold text-white fw">new arrivals</h1>
+                <a href = "#" class = "btn mt-3 text-uppercase fw-bold">30% Off</a>
+            </div>
+            <div class = "text-center carousel-item">
+                <h2 class = "text-capitalize text-white">best price & offer with Discount upto 20%</h2>
+                <h1 class = "text-uppercase py-2 fw-bold text-white">new season</h1>
+                <a href = "#" class = "btn mt-3 text-uppercase fw-bold">Every  Month</a>
+            </div>
+        </div>
+
+        <button class = "carousel-control-prev" type = "button" data-bs-target="#header" data-bs-slide = "prev">
+            <span class = "carousel-control-prev-icon"></span>
+        </button>
+        <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
+            <span class = "carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- end of header -->
+
+    <!-- collection -->
+    <section id = "collection" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center">
+                <h2 class = "position-relative d-inline-block">New Collection</h2>
+            </div>
+
+            <div class = "row g-0">
+                <div class = "d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type = "button" class = "btn m-2 text-dark active-filter-btn" data-filter = "*">All</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".best">Best Sellers</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".feat">Featured</button>
+                    <button type = "button" class = "btn m-2 text-dark" data-filter = ".new">New Arrival</button>
+                </div>
+
+                <div class = "collection-list mt-4 row gx-0 gy-3">
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            
+                            <a href="https://amzn.to/3vITqEf"> <img src="images/Timex Floral Fashion.jpg"  class = "w-100"></a>
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                
+                            </div>
+                            <p class = "text-capitalize my-1">Timex Floral Fashion</p>
+                            <span class = "fw-bold">Rs 2,294.00</span>
+                            <div><a href = "https://amzn.to/3vITqEf" class = "btn mt-3 siz text-capitalize fw-bold">buy now</a></div>
+                            
+                       </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <a href="https://amzn.to/38U9g67"> <img src="images/Redmi Note 11 Pro + 5G.jpg"  class = "w-100"></a>
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Redmi Note 11 Pro + 5G</p>
+                            <span class = "fw-bold">Rs 19,999.00</span>
+                            <div><a href = "https://amzn.to/38U9g67" class = "btn mt-3 siz text-capitalize fw-bold">buy now</a></div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <a href="https://amzn.to/3MXisoZ"> <img src="images/Dell New Vostro 3510.jpg"  class = "w-100"></a>
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Dell New Vostro 3510</p>
+                            <span class = "fw-bold">Rs 38,490.00</span>
+                            <div><a href = "https://amzn.to/3MXisoZ" class = "btn mt-3 siz text-capitalize fw-bold">buy now</a></div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class = "collection-img position-relative">
+                            <a href="https://amzn.to/39tPzlG"> <img src="images/Redmi Note 10T.jpg"  class = "w-100"></a>
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Redmi Note 10T 5G</p>
+                            <span class = "fw-bold">Rs 13,999.00</span>
+                            <div><a href = "https://amzn.to/39tPzlG" class = "btn mt-3 siz text-capitalize fw-bold">buy now</a></div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <a href="https://amzn.to/3LOIsTg"> <img src="images/Noise ColorFit Pulse Spo2.jpg"  class = "w-100"></a>
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>                                
+                            </div>
+                            <p class = "text-capitalize my-1">Noise ColorFit Pulse Spo2</p>
+                            <span class = "fw-bold">Rs 1,699.00</span>
+                            <div><a href = "https://amzn.to/3LOIsTg" class = "btn mt-3 siz text-capitalize fw-bold">buy now</a></div>
+                        </div>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                        <div class = "collection-img position-relative">
+                            <a href="https://amzn.to/3kL6y5A"> <img src="images/Lenovo IdeaPad 1.jpg"  class = "w-100"></a>
+                            <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class = "text-center">
+                            <div class = "rating mt-3">
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                                <span class = "text-primary"><i class = "fas fa-star"></i></span>
+                            </div>
+                            <p class = "text-capitalize my-1">Lenovo IdeaPad 1</p>
+                            <span class = "fw-bold">Rs 23,990.00</span>
+                            <div><a href = "https://amzn.to/3kL6y5A" class = "btn mt-3 siz text-capitalize fw-bold">buy now</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of collection -->
+
+    <!-- special products -->
+    <section id = "special" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center py-5">
+                <h2 class = "position-relative d-inline-block">Special Selection</h2>
+            </div>
+
+            <div class = "special-list row g-0">
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <a href="https://amzn.to/3FlYXUn"> <img src="images/HP 14s 11th Gen.jpg"  class = "w-100"></a>
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">HP 14s 11th Gen</p>
+                        <span class = "fw-bold d-block">Rs 35,990.00</span>
+                        <a href = "https://amzn.to/3FlYXUn" class = "btn btn-primary mt-3">Shop now</a>
+                        
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <a href="https://amzn.to/3FcpW4M"> <img src="images/ASUS VivoBook 15 (2021).jpg"  class = "w-100"></a>
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">ASUS VivoBook 15 (2021)</p>
+                        <span class = "fw-bold d-block">Rs. 26,990.00</span>
+                        <a href = "https://amzn.to/3FcpW4M" class = "btn btn-primary mt-3">Shop now</a>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <a href="https://amzn.to/3Fm2xOj"> <img src="images/Acer Aspire 3.jpg"  class = "w-100"></a>
+                        <span class = "position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
+                            <i class = "fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">Acer Aspire 3</p>
+                        <span class = "fw-bold d-block">Rs. 26,990.00</span>
+                        <a href = "https://amzn.to/3Fm2xOj" class = "btn btn-primary mt-3">Shop now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of special products -->
+
+    <!-- blogs -->
+    <section id = "offers" class = "py-5">
+        <div class = "container">
+            <div class = "row d-flex align-items-center justify-content-center text-center justify-content-lg-start text-lg-start">
+                <div class = "offers-content">
+                    <span class = "text-white">Discount Up To 40%</span>
+                    <h2 class = "mt-2 mb-4 text-white">Grand Sale Offer!</h2>
+                    <a href = "#popular" class = "btn">Hurry Up!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of blogs -->
+
+    <!-- blogs -->
+    <section id = "blogs" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center py-5">
+                <h2 class = "position-relative d-inline-block">Our Latest Blog</h2>
+            </div>
+
+            <div class = "row g-3">
+                
+                <div class = "card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src = "images/3 watch.jpg " alt = "">
+                    <div class = "card-body px-0">
+                        <h4 class = "card-title" >3 Best Watch Brands for Womens in India.</h4>
+                        <p class = "card-text">
+                            <small class = "text-muted">
+                                <span class = "fw-bold">Author: </span>Sachin Sharma
+                            </small>
+                        </p>
+                        <a href = "/blogpost.html" class = "btn">Read More</a>
+                    </div>
+                </div>
+                
+                <div class = "card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src = "images/Highly recomended formal dress for man.png" alt = "">
+                    <div class = "card-body px-0">
+                        <h4 class = "card-title"> Highly recomended formal dress for man.</h4>
+                        <p class = "card-text">
+                            <small class = "text-muted">
+                                <span class = "fw-bold">Author: </span>Sachin Sharma
+                            </small>
+                        </p>
+                        <a href = "/blogpost2.html" class = "btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class = "card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src = "images/mobile under 15000.png" alt = "">
+                    <div class = "card-body px-0">
+                        <h4 class = "card-title"> The Best Mobiles under 15000rs.</h4>
+                        <p class = "card-text">
+                            <small class = "text-muted">
+                                <span class = "fw-bold">Author: </span>Sachin Sharma
+                            </small>
+                        </p>
+                        <a href = "/blogpost3.html" class = "btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of blogs -->
+
+    <!-- about us -->
+    <section id = "about" class = "py-5">
+        <div class = "container">
+            <div class = "row gy-lg-5 align-items-center">
+                <div class = "col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class = "title pt-3 pb-5">
+                        <h2 class = "position-relative d-inline-block ms-4">About Us</h2>
+                    </div>
+                    <p  class = "lead text-muted ">
+                         <img src = "images/shopping-bag-icon.png" alt = "site icon" width="35px" height="35px" "> 
+                         shopG is an E-commerce Website based on Affilate Marketing
+                        </p>
+                    <p>This E-commerce Website is created by a college student as a Major Project. This website is based on Amazon Affilation. It's a combination of an e-commerce website and affilate marketing to grow with in devlopment as well as in marketing field.  </p>
+                </div>
+                <div class = "col-lg-6 order-lg-0">
+                    <img src = "images/aboutus.png" alt = "" class = "img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- popular -->
+    <section id = "popular" class = "py-5">
+        <div class = "container">
+            <div class = "title text-center pt-3 pb-5">
+                <h2 class = "position-relative d-inline-block ms-4">Popular Of This Year 2022</h2>
+            </div>
+
+            <div class = "row">
+                <div class = "col-md-6 col-lg-4 row g-3">
+                    <h3 class = "fs-5">Top Rated</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/Samsung Galaxy Buds Pro.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                        <div>
+                            <a href="https://amzn.to/3MMUkFp"> <p href="" class = "mb-0">Samsung Galaxy Buds Pro</p></a>
+                            
+                            <span> Rs. 6,990.00</span>
+                        </div>
+                    </div>
+                    
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/Amazfit GTS2 Mini.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                        <div>
+                            <a href="https://amzn.to/3kGyPKy"><p href="" class = "mb-0">Amazfit GTS2 Mini</p></a>
+                            <span>Rs. 5,999.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 row g-3">
+                    <h3 class = "fs-5">Best Selling</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/SHIRT THEORY Solid.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                        <div>
+                            <a href="https://amzn.to/3vFi1K8"><p href="" class = "mb-0">Shirt Theory Solid</p></a>
+                            <span>Rs. 1,899.00</span>
+                        </div>
+                    </div>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/coton theory.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                        <div>
+                            <a href="https://amzn.to/3MSW7ce"><p href="" class = "mb-0">Shirt theory White Cotton</p></a>
+                            <span>Rs. 1,399.00</span>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class = "col-md-6 col-lg-4 row g-3">
+                    <h3 class = "fs-5">On Sale</h3>
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/American Tourister Casual Backpack.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                        <div>
+                            <a href="https://amzn.to/37hayrk"><p href=""class = "mb-0">American Tourister Backpack</p></a>
+                            <span>Rs. 949.00</span>
+                        </div>
+                    </div>
+                    
+                    <div class = "d-flex align-items-start justify-content-start">
+                        <img src = "images/Lino Perros Women's Satchel.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                        <div>
+                            <a href="https://amzn.to/38T326t"><p href="" class = "mb-0">Lino Perros Women's Satchel</p></a>
+                            <span>Rs. 1,393.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of popular -->
+
+    <!-- newsletter -->
+    <section id = "newsletter" class = "py-5">
+        <div class = "container">
+            <div class = "d-flex flex-column align-items-center justify-content-center">
+                <div class = "title text-center pt-3 pb-5">
+                    <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                </div>
+
+                <p class = "text-center text-muted">Soon, We are going to provide you our latest weekly Newsletter as newly added feature of this website which is absolutly free.</p>
+                <div class = "input-group mb-3 mt-3">
+                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
+                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of newsletter -->
+
+    <!-- footer -->
+    <footer class = "bg-dark py-5">
+        <div class = "container">
+            <div class = "row text-white g-4">
+                <div class = "col-md-6 col-lg-3">
+                    <a class = " text-decoration-none brand text-white fw-bold" href = "index.html">shopG</a>
+                    <p class = "text-white text-muted mt-3">This Website is made by Sachin Sharma, BCA final year student of 2022. Created with the help of html, css, bootstrap and most important amazon affilation which comes under <a href="https://affiliate-program.amazon.in/">The Amazon Associates - Amazon's affiliate marketing program.</a> </p>
+              </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light">Links</h5>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "#header" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#collection" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Collection
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#blogs" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Blogs
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#about" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Contact Us</h5>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            New Delhi, India
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span class = "fw-light">
+                            business98sh@gmail.com
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            +91 8448206114
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">For More Follow Us</h5>
+                    <div>
+                        <ul class = "list-unstyled d-flex">
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    
+    <!-- jquery -->
+    <script src = "js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
